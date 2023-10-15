@@ -9,9 +9,12 @@ body {
     background-color: #f5f5f5;
     align-items: right;
 }
+h1 {
+    text-align: center;
+}
 
 p {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 
 }
@@ -58,7 +61,7 @@ section {
 }
 
 #profile-pic img {
-    max-width: 80px; 
+    max-width: 150px; 
     height: auto; 
     margin-right: 10px; 
 }
@@ -70,26 +73,19 @@ section {
 }
 
 #about {
-    text-align: center;
+    text-align: left;
 }
 
-#about a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
 
 #about img {
-    max-width: 150px; 
+    max-width: 300px; 
     height: 100; 
     margin-right: 10px; 
     display: inline;
 }
 
 #about .container {
-    display: inline-block;
-    height: 120px;
+    height: 400px;
     border-radius: 20px;
 }
 
