@@ -128,33 +128,3 @@ section {
     color: rgb(15, 23, 26);
 }
   
-
-@media screen and (max-width: 768px) {
-    section {
-        margin: 10px;
-    }
-
-    #abo img {
-        max-width: 80px;
-    }
-
-    #work img {
-        max-width: 150px;
-    }
-
-    #work img:first-child {
-        max-width: 200px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    nav ul {
-        text-align: center;
-        padding-top: 10px;
-    }
-
-    nav li {
-        display: block;
-        margin: 5px 0;
-    }
-}
